@@ -1,0 +1,41 @@
+Indice.
+1. Data Type (Tipos de datos en python)
+2. Variables 
+3. Listas
+3.1 Slicing (recorrer una lista)
+3.2 Operators and metods (operaciones y metodos en listas)
+3.3 Remove elements (remover/borrar elementos en una lista)
+3.4 Organize a List (Organizar/ordenar una lista)
+3.5 Copy a List (copiar una lista)
+4 Dictionary (Diccionarios)
+4.1 Add/Update elements (agregar o actualizar elementos en un diccionario)
+4.2 Copy a dictionary (crear un copia del diccionario)
+4.3 Remove elements (borrar elementos en un diccionario)
+5 if (condicional de Python)
+6 for (bucle for)
+6.1 Iteration over a list (Iteracion sobre una lista)
+6.2 Iteration over a dictionary (Iteracion sobre un diccionario)
+7. Functions (Funciones)
+7.1 Ready made Functions (Funciones pre-fabricadas)
+7.2 Making Functions (Funciones de creacion propia)
+8 Modules (Modulos)
+8.1 Modules OS
+9 PANDAS introduction 
+9.1 Making DataFrame using arrays (Creando un DataFrame usando arrays)
+9.2.1 array en forma de lista .np (numpy)
+9.2.2  array en forma de variable 
+10. Make a DataFrame using dict (Crear un DataFrame usando un diccionario)
+11. Making a DataFrame whit csv files (Creando DataFrame usando archivos csv)
+12. PANDAS // Atributos basicos, Funciones y Metodos // 
+13. Manipulacion del DataFrame
+13.1 Syntax1
+ 13.2 Seleccionar dos o mas columnas
+13.3 Agregar una nueva columna
+13.4 Agregar una nueva columna con un valor
+14. Operaciones en DataFrame
+14.1 Operaciones en columnas
+14.2 Operaciones en filas
+15. Metodo value_counts()
+15 Metodo value_counts()
+16 Ordenar un DataFrame con el metodo sort_values()
+16.1 Ordenar un DataFrame
