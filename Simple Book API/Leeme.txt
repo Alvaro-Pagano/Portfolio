@@ -1,0 +1,38 @@
+Simple book API 
+
+Funcionamiento
+
+- Register API client (POST): Registro se hace con un nombre y email y devuelve un barear token que se utiliza 
+como validacion para poder realizar otros llamados.
+
+- List of books (GET): El llamado devuelve la lista de libros con nombre, autor, disponibilidad e identificación
+no se requiere el barear token como identificación.
+
+- Get single book (GET): El llamado devuelve un libro especificado mediante Id, tampoco se requiere barear token
+como identificacion ni ningun otro dato.
+
+- Order a book (POST): El llamado genera una orden por un libro especificado, se requiere el barear token antes 
+generado en Register API client, el ID del libro y un costumerName (nombre de cliente).
+
+- Get all book orders (GET): El llamado devuelve una lista con todas las ordenes de libros echas, se especifica un 
+limite de ordenes que queremos visualizar (?limit=10), requiere barear token antes generado en Register API client
+
+- Get an order (GET): El llamado  devuelve una orden especificada mediante un ID de orden, requiere autorizacion 
+del barear token antes generado en Registger API clien y el ID de la orden antes mencionado(hay un ordersId.txt con 
+las primeras 6 id de ordenes)
+
+- Update an order (PATCH):Este llamado realiza cambios en alguna orden especificada, requiere barear token generado
+en Register API client y el ID de la orden que se quiere actualizar.
+
+- Delete order (DEL): Este llamdo elimina una orden especificada, requiere autorización por medio de barear token
+antes generado, y el Id de la orden que se quiere eliminar.
+
+
+Observaciones:
+
+El barear token utilzado es el que se genero con: 
+
+"clientName" : "Alva Pagano",
+    "clientEmail": "alvapagano819@xmail.com"
+ 
+y se encuentra guardado con una variable bajo el nombre de {{barear token}}
